@@ -1,6 +1,4 @@
 body {
-    background-color: #e6e9e9;
-    max-width: 1000px;
     padding: 2em 2em 4em;
 }
 
@@ -21,25 +19,22 @@ p {
     font-size: 18px;
 }
 
+.topnav {
+    background-color: blue;
+    font-size: 14px;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
 a {
     color: #0083e8;
-    font-size: 14px;
     text-decoration: none;
 }
 
-.topnav {
-    background-color: blue;
-    width: 200px;
-    padding: 5px;
-}
-
-
 img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+    border: 10px solid gray;
     display: block;
     margin: 1.3em auto;
-    max-width: 95%;
 }
