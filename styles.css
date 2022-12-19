@@ -23,10 +23,12 @@ p {
 
 a {
     color: #0083e8;
+    font-size: 14px;
+    text-decoration: none;
 }
 
 .topnav {
-    background-color: pink;
+    background-color: blue;
     width: 200px;
     padding: 5px;
 }
